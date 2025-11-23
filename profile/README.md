@@ -1,5 +1,5 @@
-<!-- Logo -->
 <p align="center">
+  <!-- Logo -->
   <img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/logo.png" width="120" alt="bjtu-SecurityLab Logo"/>
 </p>
 
@@ -10,7 +10,7 @@
   ![Focus](https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge)
   ![Research](https://img.shields.io/badge/Research-Multi--Agent-green?style=for-the-badge)
   ![Ecosystem](https://img.shields.io/badge/Ecosystem-AgentHive-orange?style=for-the-badge)
-  ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)
 </p>
 
 ---
@@ -34,21 +34,10 @@ All components share a common runtime:
 - Reproducible workflows  
 - Experiment logging
 
-<pre>
-                ┌──────────────────────────┐
-                │      AgentHive Core      │
-                │ (Planner • Executor • AI)│
-                └─────────────┬────────────┘
-                              │
- ┌────────────────────────────┼────────────────────────────┐
- │                            │                            │
-┌────▼────┐                 ┌─────▼─────┐                 ┌────▼─────┐
-│ Security │                 │ Firmware  │                 │ Vulner-  │
-│  Tools   │                 │ Analysis  │                 │ ability  │
-│ (SAST,   │                 │ Pipelines │                 │ Analysis │
-│ Fuzzing) │                 │ (FirmHive)│                 │ (VulnLLM)│
-└──────────┘                 └───────────┘                 └──────────┘
-</pre>
+<p align="center">
+  <!-- SVG Placeholder for Architecture Diagram -->
+  <img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/architecture.svg" width="600" alt="AgentHive Architecture"/>
+</p>
 
 ---
 
@@ -98,4 +87,4 @@ Feel free to open issues and PRs.
 
 ## 📜 License
 
-Most repositories are released under **MIT License** or equivalent permissive licenses.
+Most repositories are released under **Apache License 2.0** or equivalent permissive licenses.
