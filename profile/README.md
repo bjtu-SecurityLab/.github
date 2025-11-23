@@ -1,20 +1,17 @@
-<div align="center">
-
 <!-- Logo -->
-<img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/logo.png" width="120" alt="bjtu-SecurityLab Logo"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/logo.png" width="120" alt="bjtu-SecurityLab Logo"/>
+</p>
 
 # 🛡️ bjtu-SecurityLab
 ### AgentHive Ecosystem: Autonomous LLM Agents for Security & System Analysis
 
-<!-- Badges -->
-<p>
-  <img src="https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Research-Multi--Agent-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Ecosystem-AgentHive-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" />
+<p align="center">
+  ![Focus](https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge)
+  ![Research](https://img.shields.io/badge/Research-Multi--Agent-green?style=for-the-badge)
+  ![Ecosystem](https://img.shields.io/badge/Ecosystem-AgentHive-orange?style=for-the-badge)
+  ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 </p>
-
-</div>
 
 ---
 
@@ -34,9 +31,10 @@ All components share a common runtime:
 
 - Multi-agent planning  
 - Tool-based action interface  
-- Reproducible workflows
+- Reproducible workflows  
+- Experiment logging
 
-              <pre>
+<pre>
                 ┌──────────────────────────┐
                 │      AgentHive Core      │
                 │ (Planner • Executor • AI)│
@@ -52,10 +50,9 @@ All components share a common runtime:
 └──────────┘                 └───────────┘                 └──────────┘
 </pre>
 
-
 ---
 
-## Research Themes
+## 🔬 Research Themes
 
 - 🤖 Autonomous LLM Agents for Security Analysis  
 - 🧠 Multi-Agent Collaboration & Task Decomposition  
@@ -67,16 +64,16 @@ All components share a common runtime:
 
 ---
 
-## Coming Soon: HiveBench & HiveData
+## 🗂 Coming Soon: HiveBench & HiveData
 
 ### HiveBench
-Benchmark suite for:
+Benchmark suite for:  
 - Autonomous multi-agent systems  
 - Firmware & vulnerability analysis  
 - Tool-augmented problem solving  
 
 ### HiveData
-Structured dataset for:
+Structured dataset for:  
 - Firmware corpora  
 - Vulnerability samples  
 - Multi-step agent trajectories  
@@ -84,28 +81,21 @@ Structured dataset for:
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 We welcome collaborations in:
 
 - AgentHive ecosystem extensions  
 - New agent modules  
 - Benchmark & dataset contributions  
-- Research collaboration
+- Research collaboration  
 
 Feel free to open issues and PRs.
 
----
-
-## Contact
-
-📧 qiangcass@gmail.com  
+📧 **Contact:** qiangcass@gmail.com
 
 ---
 
-## License
+## 📜 License
 
 Most repositories are released under **MIT License** or equivalent permissive licenses.
-
-- Experiment logging  
-
