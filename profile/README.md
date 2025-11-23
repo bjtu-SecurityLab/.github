@@ -7,11 +7,12 @@
 ### AgentHive Ecosystem: Autonomous LLM Agents for Security & System Analysis
 
 <p align="center">
-  ![Focus](https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge)
-  ![Research](https://img.shields.io/badge/Research-Multi--Agent-green?style=for-the-badge)
-  ![Ecosystem](https://img.shields.io/badge/Ecosystem-AgentHive-orange?style=for-the-badge)
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)
+  <img src="https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge" alt="Focus Badge"><br>
+  <img src="https://img.shields.io/badge/Research-Multi--Agent-green?style=for-the-badge" alt="Research Badge"><br>
+  <img src="https://img.shields.io/badge/Ecosystem-AgentHive-orange?style=for-the-badge" alt="Ecosystem Badge"><br>
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge" alt="License Badge">
 </p>
+
 
 ---
 
