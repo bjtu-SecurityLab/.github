@@ -1,9 +1,9 @@
 <p align="center">
   <!-- Logo -->
-  <img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/logo.png" width="120" alt="bjtu-SecurityLab Logo"/>
+  <img src="./assets/logo.png" width="150" alt="bjtu-SecurityLab Logo"/>
 </p>
 
-# 🛡️ bjtu-SecurityLab
+# ⚡ bjtu-SecurityLab
 ### AgentHive Ecosystem: Autonomous LLM Agents for Security & System Analysis
 
 <p align="center">
