@@ -56,8 +56,6 @@ VulnLLM is built on AgentHive to provide automated vulnerability discovery, risk
 ---
 
 
----
-
 ## 🔬 Research Themes
 
 - 🤖 Autonomous LLM Agents for Security Analysis  
