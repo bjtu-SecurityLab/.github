@@ -3,8 +3,8 @@
   <img src="./assets/logo.png" width="150" alt="bjtu-SecurityLab Logo"/>
 </p>
 
-# ⚡ bjtu-SecurityLab
-### AgentHive Ecosystem: Autonomous LLM Agents for Security & System Analysis
+# ⚡ AgentHive
+### Autonomous LLM agents for complex tasks and system analysis
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-LLM%20Agents%20|%20Security-blue?style=for-the-badge" alt="Focus Badge"><br>
@@ -16,29 +16,45 @@
 
 ---
 
-# 🚀 AgentHive Ecosystem Projects
+##  🧬 AgentHive — Core Framework
 
-| Project | Description | Repository |
-|--------|-------------|------------|
-| 🧩 **AgentHive** | Core multi-agent LLM system; dynamic task decomposition, planning, tool-use, and collaboration | [AgentHive](https://github.com/bjtu-SecurityLab/AgentHive) |
-| 🔧 **FirmHive** | Autonomous firmware analysis system powered by AgentHive | [FirmHive](https://github.com/bjtu-SecurityLab/FirmHive) |
-| 🛡️ **VulnLLM** | Automated binary & source vulnerability discovery | [VulnLLM](https://github.com/bjtu-SecurityLab/VulnLLM) |
+AgentHive is the core multi-agent runtime and framework for this organization. It provides task decomposition, agent orchestration, planning, and tool integration. AgentHive supplies a consistent execution model and extensible tool interfaces so higher-level applications can implement complex automated security and system-analysis workflows in a modular and reproducible way.
+
+Quick links & highlights:
+
+- Repository: [AgentHive](https://github.com/bjtu-SecurityLab/AgentHive)
+- Key capabilities: task decomposition, multi-agent orchestration, tool adapters, reproducible workflows
+- Use cases: automated firmware analysis, binary & source auditing, large-scale experiment platforms
+
+
+
+<p align="center">
+  <!-- SVG Placeholder for Architecture Diagram (AgentHive) -->
+  <img src="./assets/architecture.svg" width="600" alt="AgentHive Architecture"/>
+</p>
 
 ---
 
-# 🧬 Unified Architecture
+## Applications (built on AgentHive)
 
-All components share a common runtime:
+The projects below are applications that build on top of AgentHive. They reuse AgentHive's orchestration, tool interfaces, and workflow control to provide domain-specific automation.
 
-- Multi-agent planning  
-- Tool-based action interface  
-- Reproducible workflows  
-- Experiment logging
+### 🔧 FirmHive — Autonomous Firmware Analysis
 
-<p align="center">
-  <!-- SVG Placeholder for Architecture Diagram -->
-  <img src="https://raw.githubusercontent.com/bjtu-SecurityLab/.github/main/profile/architecture.svg" width="600" alt="AgentHive Architecture"/>
-</p>
+FirmHive is an application built on top of AgentHive focused on automated firmware extraction, static/dynamic analysis, and reverse-engineering workflows. FirmHive composes AgentHive agents to orchestrate toolchains (e.g., binwalk, QEMU, automated Ghidra/IDA scripts) and runs analysis tasks in scalable parallel environments.
+
+- Repository: [FirmHive](https://github.com/bjtu-SecurityLab/FirmHive)
+- Typical uses: firmware extraction, filesystem parsing, symbolication and vulnerability localization, automated reverse-engineering pipelines
+
+### 🛡️ VulnLLM — Vulnerability Discovery & Triage
+
+VulnLLM is built on AgentHive to provide automated vulnerability discovery, risk scoring, and initial triage workflows for binaries and source code. It combines static analysis, fuzzing, and LLM-driven semantic reasoning to create a scalable pipeline for finding and validating issues.
+
+- Repository: [VulnLLM](https://github.com/bjtu-SecurityLab/VulnLLM)
+- Typical uses: automated vulnerability detection, exploit-chain analysis, deduplication and prioritization of alerts
+
+---
+
 
 ---
 
